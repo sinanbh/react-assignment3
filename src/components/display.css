@@ -1,0 +1,20 @@
+.dispaly-container {
+    border: 2px solid black;
+    width: 80%;
+    margin-inline: auto;
+    background-color: rgb(180, 236, 242);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+.display {
+    border: 2px solid black;
+    width: fit-content;
+    background-color: rgb(249, 172, 203);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    font-weight: 500;
+}
