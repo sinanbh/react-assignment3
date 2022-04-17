@@ -44,6 +44,7 @@ const Form = () => {
               id="name"
               value={name}
               onChange={(event) => setName(event.target.value)}
+              required
             />
             <br />
 
@@ -54,6 +55,7 @@ const Form = () => {
               id="department"
               value={department}
               onChange={(event) => setDepartment(event.target.value)}
+              required
             />
             <br />
 
@@ -64,6 +66,7 @@ const Form = () => {
               id="rating"
               value={rating}
               onChange={(event) => setRating(event.target.value)}
+              required
             />
             <br />
 
